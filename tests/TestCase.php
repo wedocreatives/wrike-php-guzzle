@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 /*
- * This file is part of the zibios/wrike-php-guzzle package.
+ * This file is part of the wedocreatives/wrike-php-guzzle package.
  *
  * (c) Zbigniew Ślązak
  *
@@ -11,7 +11,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Zibios\WrikePhpGuzzle\Tests;
+namespace wedocreatives\WrikePhpGuzzle\Tests;
 
 /**
  * Test Case.

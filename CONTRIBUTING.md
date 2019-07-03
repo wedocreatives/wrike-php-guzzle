@@ -30,7 +30,7 @@ clear and has sufficient instructions to be able to reproduce the issue.
 If possible please provide a minimal demo of the problem.
 
 ## Security vulnerability disclosure
-Please report suspected security vulnerabilities in private to social.zibios@gmail.com, 
+Please report suspected security vulnerabilities in private, 
 Please do NOT create publicly viewable issues for suspected security vulnerabilities.
 
 ## Tests

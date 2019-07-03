@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 /*
- * This file is part of the zibios/wrike-php-guzzle package.
+ * This file is part of the wedocreatives/wrike-php-guzzle package.
  *
  * (c) Zbigniew Ślązak
  *
@@ -11,15 +11,15 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Zibios\WrikePhpGuzzle\Client;
+namespace wedocreatives\WrikePhpGuzzle\Client;
 
 use GuzzleHttp\Client as BaseClient;
 use Psr\Http\Message\ResponseInterface;
-use Zibios\WrikePhpLibrary\Api;
-use Zibios\WrikePhpLibrary\Client\ClientInterface;
-use Zibios\WrikePhpLibrary\Enum\Api\RequestMethodEnum;
-use Zibios\WrikePhpLibrary\Exception\Api\ApiException;
-use Zibios\WrikePhpLibrary\Validator\AccessTokenValidator;
+use wedocreatives\WrikePhpLibrary\Api;
+use wedocreatives\WrikePhpLibrary\Client\ClientInterface;
+use wedocreatives\WrikePhpLibrary\Enum\Api\RequestMethodEnum;
+use wedocreatives\WrikePhpLibrary\Exception\Api\ApiException;
+use wedocreatives\WrikePhpLibrary\Validator\AccessTokenValidator;
 
 /**
  * Guzzle Client for Wrike library.
@@ -36,8 +36,8 @@ class GuzzleClient extends BaseClient implements ClientInterface
      * @param array  $params        optional params for GET/POST request
      * @param string $accessToken   Access Token for Wrike access
      *
-     * @see \Zibios\WrikePhpLibrary\Enum\Api\RequestMethodEnum
-     * @see \Zibios\WrikePhpLibrary\Enum\Api\RequestPathFormatEnum
+     * @see \wedocreatives\WrikePhpLibrary\Enum\Api\RequestMethodEnum
+     * @see \wedocreatives\WrikePhpLibrary\Enum\Api\RequestPathFormatEnum
      *
      * @throws \Throwable
      * @throws ApiException

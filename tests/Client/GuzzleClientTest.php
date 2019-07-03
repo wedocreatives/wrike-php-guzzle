@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 /*
- * This file is part of the zibios/wrike-php-guzzle package.
+ * This file is part of the wedocreatives/wrike-php-guzzle package.
  *
  * (c) Zbigniew Ślązak
  *
@@ -11,13 +11,13 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Zibios\WrikePhpGuzzle\Tests\Client;
+namespace wedocreatives\WrikePhpGuzzle\Tests\Client;
 
 use GuzzleHttp\ClientInterface;
 use Psr\Http\Message\ResponseInterface;
-use Zibios\WrikePhpGuzzle\Client\GuzzleClient;
-use Zibios\WrikePhpGuzzle\Tests\TestCase;
-use Zibios\WrikePhpLibrary\Enum\Api\RequestMethodEnum;
+use wedocreatives\WrikePhpGuzzle\Client\GuzzleClient;
+use wedocreatives\WrikePhpGuzzle\Tests\TestCase;
+use wedocreatives\WrikePhpLibrary\Enum\Api\RequestMethodEnum;
 
 /**
  * Guzzle Client Test.
