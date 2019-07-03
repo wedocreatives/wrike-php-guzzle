@@ -21,8 +21,8 @@
     }
   ],
   "require": {
-    "php": ">=7.1,<7.3",
-    "wedocreatives/wrike-php-library": "^3.0-dev",
+    "php": ">=7.1",
+    "wedocreatives/wrike-php-library": "dev-master",
     "guzzlehttp/guzzle": ">=6.0,<7.0",
     "ext-json": "*"
   },
